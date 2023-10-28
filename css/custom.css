@@ -1,0 +1,181 @@
+/*************** Nav *************/
+.ltn__header-options .ltn__drop-menu ul li ul{
+    width: 170px;
+}
+/***************** End Nav **********/
+/************* Login Page *****************/
+
+.WrongLogin{
+    color: #f00;
+    text-align: center;
+    /* font-weight: bold; */
+    font-size: 18px;
+    display: none;
+}
+/************ End Login Page **************/
+
+#filter-error-message{
+    color: Red;
+    display: none;
+}
+.filter-no-data{
+    color:#fd593e;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    padding:20px 0px;
+    margin: 0px;
+}
+.ltn__top-rated-product-widget{
+    display: none;
+}
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+
+  /********************** loader style***************************/
+  
+.loader-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .loader-spinner {
+    width: 150px;
+    height: 150px;
+}
+  svg {
+    width: 90%;
+    fill: none;
+}
+  
+ .load {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 0.7 0.3;
+    stroke-linecap: round;
+    stroke-width: 3px;
+    stroke: #FF5A3C;
+}
+ .one {
+    animation: load 1.5s infinite ease-in;
+    animation-direction: reverse;
+}
+ .two {
+    fill: #FF5A3C;
+}
+ .three {
+    animation: load 1.5s infinite;
+}
+  
+@keyframes load {
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+/** loader in filter page **/
+.ltn__product-grid-view .loader-container{
+    width: auto;
+    height: auto;
+}
+/** end Loader in filter page **/
+
+/** Register Page **/
+.account-login-inner .email-container,
+.account-login-inner .phone-container{
+    margin-bottom: 30px;
+}
+.account-login-inner .email,
+.account-login-inner .phone{
+    margin:0px;
+}
+
+.account-login-inner input{
+    margin-bottom: 0px;
+}
+.account-login-inner .email-container  .email input,
+.account-login-inner .phone-container  .phone input,
+.account-login-inner .phone-container .country-code {
+    background-color: var(--white);
+    border: 2px solid;
+    border-color: var(--border-color-9);
+    height: 65px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-left: 20px;
+    font-size: 16px;
+    color: var(--ltn__paragraph-color);
+    border-radius: 0;
+    padding-right: 40px;
+}
+.account-login-inner .phone-container .country-code{
+    padding-right: 10px;
+}
+.account-login-inner .email-container .email .verfication{
+    border: none;
+    background:none;
+    font-size: 14px;
+    color:#fd593e;
+    text-align: end;
+}
+
+
+.account-login-inner .fullname-error,
+.account-login-inner .code-error,
+.account-login-inner .phone-error ,
+.account-login-inner .password-error,
+.account-login-inner .confirmpassword-error,
+.account-login-inner .condition-error,
+.account-login-inner .countrycode-error,
+.modal-forget-email .email-error,
+.modal-forget-email .code-error,
+.modal-forget-email .password-error,
+.modal-forget-email .confirmpassword-error,
+.change-password-inner .old-password-error,
+.change-password-inner .new-password-error,
+.change-password-inner .confirmpassword-error
+{
+    margin:0px;
+    color:#f00;
+    font-size: 14px;
+    margin-bottom: 30px;
+    visibility: hidden;
+}
+
+.account-login-inner .email-container  .email-error{
+    margin:0px;
+    color:#f00;
+    font-size: 14px;
+    display: none ;
+}
+.modal-forget-email .forget-email,
+.modal-forget-email .code,
+.modal-forget-email .password,
+.modal-forget-email .confirmpassword ,
+.change-password-inner .old-password,
+.change-password-inner .new-password,
+.change-password-inner .confirmpassword
+{
+    margin-bottom: 0px;
+}
+.modal-forget-email .email-error{
+    text-align: left;
+}
+/** End Register Page **/
+
+/** Login Page **/
+.modal-forget-email .code,
+.modal-forget-email .password,
+.modal-forget-email .confirmpassword,
+.modal-forget-email .code-error
+.modal-forget-email .password-error
+.modal-forget-email .confirmpassword-error{
+    display: none;
+}
+/** End Login Page **/
